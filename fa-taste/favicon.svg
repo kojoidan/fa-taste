@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+
+  <!-- Outer Plate -->
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#facc15" stroke-width="3"/>
+
+  <!-- Inner Plate -->
+  <circle cx="32" cy="32" r="14" fill="none" stroke="#facc15" stroke-width="2"/>
+
+  <!-- Food items -->
+  <circle cx="27" cy="30" r="2.5" fill="#facc15"/>
+  <circle cx="35" cy="29" r="2" fill="#fde047"/>
+  <ellipse cx="32" cy="36" rx="4.5" ry="2.5" fill="#facc15"/>
+
+  <!-- Spoon -->
+  <g transform="rotate(-35 32 32)">
+    <ellipse cx="18" cy="26" rx="2.5" ry="4" fill="#facc15"/>
+    <rect x="17" y="30" width="3" height="10" rx="1.5" fill="#facc15"/>
+  </g>
+
+  <!-- Fork -->
+  <g transform="rotate(35 32 32)">
+    <rect x="44" y="22" width="2.5" height="12" rx="1.2" fill="#facc15"/>
+    <rect x="43" y="20" width="1.5" height="4" fill="#facc15"/>
+    <rect x="45.5" y="20" width="1.5" height="4" fill="#facc15"/>
+    <rect x="48" y="20" width="1.5" height="4" fill="#facc15"/>
+  </g>
+
+</svg>

@@ -1,0 +1,59 @@
+<svg width="1200" height="600" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Logo Icon -->
+  <g transform="translate(300,300) scale(1.45)">
+
+    <!-- Outer Plate -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#facc15" stroke-width="6"/>
+
+    <!-- Inner Plate -->
+    <circle cx="0" cy="0" r="52" fill="none" stroke="#facc15" stroke-width="3"/>
+
+    <!-- Food items -->
+    <circle cx="-14" cy="-10" r="7" fill="#facc15"/>
+    <circle cx="12" cy="-12" r="6" fill="#fde047"/>
+    <ellipse cx="4" cy="14" rx="14" ry="8" fill="#facc15"/>
+
+    <!-- Spoon (inside plate, left) -->
+    <g transform="rotate(-25)">
+      <ellipse cx="-22" cy="-28" rx="6" ry="10" fill="#facc15"/>
+      <rect x="-25" y="-18" width="6" height="28" rx="3" fill="#facc15"/>
+    </g>
+
+    <!-- Fork (inside plate, right) -->
+    <g transform="rotate(25)">
+      <rect x="18" y="-22" width="5" height="30" rx="2.5" fill="#facc15"/>
+      <rect x="16" y="-28" width="3" height="8" fill="#facc15"/>
+      <rect x="20" y="-28" width="3" height="8" fill="#facc15"/>
+      <rect x="24" y="-28" width="3" height="8" fill="#facc15"/>
+    </g>
+
+  </g>
+
+  <!-- Brand Name -->
+  <text
+    x="430"
+    y="300"
+    font-size="84"
+    font-weight="700"
+    fill="#ffffff"
+    font-family="Georgia, 'Times New Roman', serif"
+    letter-spacing="5"
+  >
+    FA TASTE
+  </text>
+
+  <!-- Subtitle -->
+  <text
+    x="430"
+    y="350"
+    font-size="28"
+    font-weight="600"
+    fill="#facc15"
+    font-family="Arial, sans-serif"
+    letter-spacing="6"
+  >
+    RESTAURANT
+  </text>
+
+</svg>
